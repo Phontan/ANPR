@@ -5,7 +5,7 @@ using NLog;
 
 namespace ANPR.Common.Log
 {
-    class NLogger : ILogger
+    public class NLogger : ILogger
     {
         private readonly Logger _logger;
 

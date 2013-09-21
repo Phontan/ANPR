@@ -2,7 +2,7 @@
 
 namespace ANPR.Common
 {
-    internal class Ensure
+    public class Ensure
     {
         public static void NotNull<T>(T argument, string argumentName) where T : class
         {
